@@ -1,0 +1,23 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+}
+
+.header {
+    background-image: url('../img/istockphoto-917346634-170667a.jpg');
+    background-size: cover;
+    background-attachment: fixed;
+    padding: 10% 175px;
+    text-align: center;
+    font-size: 30px;
+    color: wheat;
+    font-family: 'Creepster', cursive;
+    height: 100vh;
+}
+
+#flecha {
+    width: 25%;
+}
