@@ -1,7 +1,5 @@
 * {
     box-sizing: border-box;
-    /* font family */
-    font-family: 'Quicksand', sans-serif;
 }
 
 body {
@@ -25,7 +23,7 @@ body {
 
 #TextoVideo {
     width: 100%;
-    height: 350px;
+    height: 600px;
     position: absolute;
     top: 0;
     left: 0;
@@ -33,7 +31,8 @@ body {
     justify-content: center;
     align-items: center;
     color: #031321;
-    font-size: 4vw;
+    font-size: 3.5vw;
+    font-family: 'Francois One', sans-serif;
 }
 
 #videowrapper {
@@ -43,7 +42,7 @@ body {
 
 #fullScreenDiv {
     min-height: 100%;
-    height: 50vh;
+    height: 85vh;
     width: 100vw;
     padding: 0;
     margin: 0;
@@ -67,7 +66,7 @@ body {
 }
 
 .padding-top-bottom {
-    padding: 12% 0;
+    padding: 2% 0;
 }
 
 .two-column {
@@ -77,15 +76,35 @@ body {
 }
 
 .two-column img {
-    width: 100%;
+    width: 85%;
+    float: right;
 }
 
 .two-column h1 {
     font-size: 5vw;
+    font-family: 'Francois One', sans-serif;
 }
 
-.two-column p {
-    font-size: 3vw;
+.two-column h3 {
+    font-size: 1.5vw;
+    font-family: 'Francois One', sans-serif;
 }
 
-@media screen and (max-width:700px) {}
+.fila3 {
+    font-size: 0.8vw;
+    color: wheat;
+    padding: 40px 0px 30px 30px;
+    font-family: 'Varta', sans-serif;
+    width: 100%;
+}
+
+.row3 {
+    background-image: url(../img/istockphoto-917346634-170667a.jpg);
+}
+
+.boton {
+    width: 40%;
+    padding: 0px 0px 0px 600px;
+}
+
+@media screen and (max-width: 700px) {}
