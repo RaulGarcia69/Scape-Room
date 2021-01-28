@@ -1,0 +1,24 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+}
+
+
+/* Clear floats after the columns */
+
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+
+/*    HEADER   */
+
+
+/* CLASES DE COLUMNAS*/
+
+@media screen and (max-width: 700px) {}
