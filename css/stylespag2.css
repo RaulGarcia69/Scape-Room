@@ -21,3 +21,13 @@ body {
 #flecha {
     width: 25%;
 }
+
+.row {
+    background-image: url('../img/puertapuerta.jpg');
+    background-size: cover;
+    background-attachment: fixed;
+    padding: 10% 175px;
+    text-align: center;
+    color: blanchedalmond;
+    height: 100vh;
+}
