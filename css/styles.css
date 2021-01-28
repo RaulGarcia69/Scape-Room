@@ -93,9 +93,20 @@ body {
 .fila3 {
     font-size: 0.8vw;
     color: wheat;
-    padding: 40px 0px 30px 30px;
+    padding: 40px 30px 30px 30px;
     font-family: 'Varta', sans-serif;
     width: 100%;
+    text-align: center;
+}
+
+.fila3 h1 {
+    text-align: center;
+    padding: 30px 0px 30px 0px;
+    font-size: 3vw;
+}
+
+.fila3 img {
+    width: 30%;
 }
 
 .row3 {
@@ -104,7 +115,7 @@ body {
 
 .boton {
     width: 40%;
-    padding: 0px 0px 0px 600px;
+    padding: 0px 0px 0px 630px;
 }
 
 @media screen and (max-width: 700px) {}
