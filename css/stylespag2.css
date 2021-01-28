@@ -31,3 +31,14 @@ body {
     color: blanchedalmond;
     height: 100vh;
 }
+
+input {
+    padding: 2% 0% 1% 0.5%;
+    font-size: 150%;
+}
+
+a {
+    text-decoration: none;
+    font-size: 150%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
