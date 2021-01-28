@@ -18,7 +18,44 @@ body {
 
 /*    HEADER   */
 
+.header {
+    background-image: url('../img/istockphoto-917346634-170667a.jpg');
+    background-size: cover;
+    background-attachment: fixed;
+    padding: 10% 175px;
+    text-align: center;
+    font-size: 30px;
+    color: wheat;
+    font-family: 'Creepster', cursive;
+    height: 100vh;
+}
+
 
 /* CLASES DE COLUMNAS*/
+
+.two-column {
+    float: left;
+    width: 50%;
+}
+
+#pen {
+    padding: 130px 0px 20px 200px;
+    width: 70%;
+}
+
+a {
+    text-decoration: none;
+    font-size: 150%;
+    font-family: 'Francois One', sans-serif;
+}
+
+input {
+    padding: 2% 0% 1% 0.5%;
+    font-size: 150%;
+}
+
+.padding {
+    padding: 60px 0px 30px 500px;
+}
 
 @media screen and (max-width: 700px) {}
