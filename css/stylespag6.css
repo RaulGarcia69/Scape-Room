@@ -1,0 +1,110 @@
+* {
+    box-sizing: border-box;
+    font-family: 'Creepster', cursive;
+}
+
+body {
+    margin: 0;
+}
+
+html,
+body {
+    height: 100%;
+    width: 100%;
+    background-color: #232527;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.row {
+    background-image: url("../img/fondo2.jpg");
+    background-size: cover;
+    background-attachment: fixed;
+    height: 100vh;
+}
+
+::-webkit-scrollbar {
+    display: none;
+}
+
+img {
+    display: block;
+}
+
+.pres {
+    padding: 5px 10%;
+}
+
+.pres h1 {
+    color: white;
+    font-size: 40px;
+    text-align: center;
+}
+
+#word {
+    height: 50vh;
+    width: 45vh;
+}
+
+.datos {
+    width: 50%;
+    padding: 2% 10% 1%;
+    float: left;
+}
+
+#recogida_datos {
+    padding: 12% 10% 1%;
+}
+
+input {
+    padding: 2% 0% 1% 0.5%;
+    font-size: 150%;
+}
+
+.comprobar {
+    width: 100%;
+    padding: 15px 8%;
+}
+
+a {
+    text-decoration: none;
+    font-size: 150%;
+    font-family: 'Creepster', cursive;
+    color: blanchedalmond;
+}
+
+#footer {
+    background-color: #232527;
+    color: white;
+}
+
+#footer p {
+    font-size: 20px;
+    text-align: left;
+    font-family: 'Quicksand';
+}
+
+.two-column2 {
+    float: left;
+    width: 50%;
+    padding: 13px 2%;
+    font-size: 3vw;
+}
+
+.two-column2 img {
+    padding-left: 80px;
+}
+
+.four-column {
+    float: left;
+    width: 25%;
+    padding: 0% 2%;
+}

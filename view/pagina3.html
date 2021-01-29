@@ -2,36 +2,52 @@
 <html lang="en">
 
 <head>
-    <title>Scape Room | </title>
+    <title>Scape Room | Reto 2</title>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" type="text/css" href="../css/stylespag3.css">
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Creepster&display=swap" rel="stylesheet">
-    <link rel="icon " href="./img/LOGO.png" type="image/x-icon ">
+    <link rel="icon " href="../img/LOGO.png " type="image/x-icon ">
+    <script src="../js/pag3.js"></script>
 
 </head>
 
 <body>
     <div class="row">
+        <embed src="../img/morse.wav" loop="true" autostart="true" hidden="true" />
         <div class="texto">
             <h1>Has abierto la puerta, pero las luces están apagadas y es muy difícil moverte por la habitación, de fondo se escucha un ruido que parece morse...</h1>
         </div>
         <div class="room">
-            <input type="text" name="val-1" id="val-1">
-            <a href="view/reto_2.html" onclick="return val_1()">Validar reto</a>
-            <audio autoplay loop id="playAudio">
-                <source src="../img/morse.wav">
-            </audio>
+            <div class="datos">
+                <input type="text" name="val-1" id="val-1">
+            </div>
+            <div class="comprobar">
+                <a href="./pagina4.html" onclick="return pag3()">Comprobar palabra</a>
+            </div>
         </div>
 
     </div>
 </body>
 
-
-
 <footer>
+    <div class="black" id="footer">
+        <div class="two-column2">
+            <p>© R.I.M. Escape Room, 2021</p>
+            <img src="../img/LOGO.png" width="20%" alt="logo">
+        </div>
 
+        <div class="four-column">
+            <p>Facebook</p>
+            <p>Instagram</p>
+        </div>
+
+        <div class="four-column">
+            <p>Nuestra empresa</p>
+            <p>Dudas</p>
+        </div>
+    </div>
 
 </footer>
 
