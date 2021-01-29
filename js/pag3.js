@@ -9,6 +9,6 @@ function pag3() {
 }
 
 function myaudio {
-    var audio = document.getElementById("myaudio");
+    var audio = document.getElementById("myaudio")
     audio.volume = 0.1;
 }
