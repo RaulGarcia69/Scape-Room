@@ -6,6 +6,18 @@ body {
     margin: 0;
 }
 
+
+/* Clear floats after the columns */
+
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+
+/*    HEADER   */
+
 .header {
     background-image: url('../img/istockphoto-917346634-170667a.jpg');
     background-size: cover;
@@ -22,7 +34,7 @@ body {
     width: 25%;
 }
 
-.row {
+.row2 {
     background-image: url('../img/puertapuerta.jpg');
     background-size: cover;
     background-attachment: fixed;
@@ -42,3 +54,36 @@ a {
     font-size: 150%;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
+
+
+/* FOOTER*/
+
+#footer {
+    background-color: #232527;
+    color: white;
+}
+
+#footer p {
+    font-size: 20px;
+    text-align: left;
+    font-family: 'Quicksand';
+}
+
+.two-column2 {
+    float: left;
+    width: 50%;
+    padding: 2%;
+    font-size: 3vw;
+}
+
+.two-column2 img {
+    padding-left: 80px;
+}
+
+.four-column {
+    float: left;
+    width: 25%;
+    padding: 2%;
+}
+
+@media screen and (max-width: 700px) {}
