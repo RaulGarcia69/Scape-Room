@@ -8,7 +8,7 @@ function pag3() {
     }
 }
 
-function myaudio {
-    var audio = document.getElementById("myaudio").value
-    audio.volume = 0.5;
+function audio() {
+    var audio = document.getElementById("myaudio");
+    audio.volume = 0.2;
 }
