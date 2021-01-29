@@ -1,0 +1,60 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+}
+
+
+/* Clear floats after the columns */
+
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+
+/*    HEADER   */
+
+.header {
+    background-image: url('../img/istockphoto-917346634-170667a.jpg');
+    background-size: cover;
+    background-attachment: fixed;
+    padding: 10% 175px;
+    text-align: center;
+    font-size: 30px;
+    color: wheat;
+    font-family: 'Creepster', cursive;
+    height: 100vh;
+}
+
+
+/* CLASES DE COLUMNAS*/
+
+.two-column {
+    float: left;
+    width: 50%;
+}
+
+#padding {
+    padding: 200px 0px 30px 250px;
+}
+
+a {
+    text-decoration: none;
+    font-size: 150%;
+    font-family: 'Francois One', sans-serif;
+}
+
+input {
+    padding: 2% 0% 1% 0.5%;
+    font-size: 150%;
+}
+
+#fondo {
+    background-image: url("../img/puerta-abierta.jpg");
+}
+
+@media screen and (max-width: 700px) {}
