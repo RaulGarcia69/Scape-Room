@@ -11,7 +11,7 @@ function pag3() {
 
 
 function playAudio() {
-    var audio = document.getElementById("myAudio");
-    audio.play();
+    var x = document.getElementById("myaudio");
+    x.play();
 
 }
