@@ -68,6 +68,11 @@ a {
     color: blanchedalmond;
 }
 
+.audiomorse {
+    padding-left: 570px;
+    background-color: #000000;
+}
+
 #footer {
     background-color: #232527;
     color: white;
