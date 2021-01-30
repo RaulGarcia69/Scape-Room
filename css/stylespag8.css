@@ -88,4 +88,25 @@ input {
     padding: 2%;
 }
 
-@media screen and (max-width: 700px) {}
+@media screen and (max-width: 700px) {
+    .header h1 {
+        font-size: 5vw;
+    }
+    .two-column img {
+        width: 100%;
+    }
+    #footer p {
+        font-size: 10px;
+    }
+    a {
+        font-size: 80%;
+    }
+    input {
+        padding: 20px 0% 0% 0px;
+        font-size: 40%;
+    }
+    .two-column {
+        float: left;
+        width: 100%;
+    }
+}
