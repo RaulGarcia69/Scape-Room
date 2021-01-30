@@ -68,6 +68,16 @@ a {
     color: blanchedalmond;
 }
 
+.boton {
+    width: 100%;
+    padding: 1% 47% 0%;
+}
+
+.boton button {
+    font-size: 25px;
+    cursor: pointer;
+}
+
 #footer {
     background-color: #232527;
     color: white;
