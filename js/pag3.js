@@ -8,13 +8,10 @@ function pag3() {
     }
 }
 
-function audio() {
-    var audio = document.getElementById("myaudio");
-    audio.volume = 0.2;
-}
+
 
 function playAudio() {
-    var boton = document.getElementById("myAudio");
-    boton.play();
+    var audio = document.getElementById("myAudio");
+    audio.play();
 
 }
