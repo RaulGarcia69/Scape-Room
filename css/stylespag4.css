@@ -19,7 +19,7 @@ body {
 /*    HEADER   */
 
 .header {
-    background-image: url('../img/istockphoto-917346634-170667a.jpg');
+    background-image: url('../img/fondogeometrico.jpg');
     background-size: cover;
     background-attachment: fixed;
     padding: 10% 175px;
@@ -89,4 +89,15 @@ input {
     padding: 2%;
 }
 
-@media screen and (max-width: 700px) {}
+@media screen and (max-width: 700px) {
+    .header h1 {
+        font-size: 4vw;
+        text-align: left;
+        padding: 10% 0x;
+        width: 100%;
+    }
+    .two-column img {
+        float: left;
+        padding: 40px 0px 20px 0px;
+    }
+}

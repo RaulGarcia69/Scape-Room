@@ -146,4 +146,25 @@ body {
     padding: 2%;
 }
 
-@media screen and (max-width: 700px) {}
+@media screen and (max-width: 700px) {
+    #TextoVideo {
+        font-size: 3vw;
+        height: 180px;
+    }
+    #fullScreenDiv {
+        height: 20vh;
+    }
+    .boton {
+        width: 10%;
+        padding: 0px 0px 50px 10%;
+    }
+    .fila3 {
+        font-size: 1.5vw;
+    }
+    .fila3 h1 {
+        font-size: 4vw;
+    }
+    #footer p {
+        font-size: 10px;
+    }
+}
