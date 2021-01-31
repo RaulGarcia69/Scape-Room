@@ -79,7 +79,6 @@ a {
 }
 
 .audiomorse {
-    background-color: black;
     padding-top: 40px;
 }
 
@@ -115,4 +114,12 @@ a {
     padding: 0% 2%;
 }
 
-@media screen and (max-width:700px) {}
+@media screen and (max-width:700px) {
+    .datos {
+        padding: 25% 0% 5% 0%;
+    }
+    .comprobar {
+        width: 100%;
+        padding: 0% 0px 100px 0px;
+    }
+}
