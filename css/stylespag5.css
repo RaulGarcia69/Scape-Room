@@ -111,12 +111,15 @@ a {
         padding-top: 5px;
     }
     #footer p {
-        font-size: 10px;
+        font-size: 8px;
     }
     .pres {
-        padding-bottom: 20px;
+        padding-bottom: 50px;
+    }
+    .pres h1 {
+        font-size: 35px;
     }
     .row {
-        height: 120vh;
+        height: 100vh;
     }
 }
