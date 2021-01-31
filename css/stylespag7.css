@@ -1,113 +1,129 @@
     * {
-    box-sizing: border-box;
-}
-
-body {
-    margin: 0;
-}
-
-.row:after {
-    content: "";
-    display: table;
-    clear: both;
-}
-
-.header {
-    background-image: url('../img/yellowish-horror-background.jpg');
-    background-size: cover;
-    background-attachment: fixed;
-    padding: 100px 175px;
-    text-align: center;
-    font-size: 30px;
-    color: black;
-    font-family: 'Creepster', cursive;
-    height: 100vh;
-}
-
-.contenedor {
-    position: relative;
-    height: 290px;
-    width: 290px;
-    float: left;
-    margin: 50px 20px;
-}
-
-.contenedor img {
-    position: absolute;
-    left: 0;
-    transition: opacity 6s ease-in-out;
-}
-
-.contenedor img.top:hover {
-    opacity: 0;
-}
-
-#back {
-    background-image: url('../img/dark-wall.jpg');
-    background-size: cover;
-    background-attachment: fixed;
-}
-
-.row2 {
-    text-align: center;
-    float: right;
-    width: 100%;
-}
-
-input {
-    padding: 2% 0% 1% 0.5%;
-    font-size: 150%;
-}
-
-.padding {
-    padding: 60px 0px 30px 500px;
-}
-
-a {
-    text-decoration: none;
-    font-size: 150%;
-    font-family: 'Creepster', cursive;
-    color: blanchedalmond;
-}
-
-
-/* FOOTER*/
-
-#footer {
-    background-color: #232527;
-    color: white;
-}
-
-#footer p {
-    font-size: 20px;
-    text-align: left;
-    font-family: 'Quicksand';
-}
-
-.two-column2 {
-    float: left;
-    width: 50%;
-    padding: 2%;
-    font-size: 3vw;
-}
-
-.two-column2 img {
-    float: left;
-    padding-left: 80px;
-}
-
-.four-column {
-    float: left;
-    width: 25%;
-    padding: 2%;
-}
-
-.huhu {
-    padding-bottom: 300px;
-    float: left;
-}
-
-@media screen and (max-width: 700px) {
+        box-sizing: border-box;
+    }
+    
+    body {
+        margin: 0;
+    }
+    
+    .row:after {
+        content: "";
+        display: table;
+        clear: both;
+    }
+    
+    .header {
+        background-image: url('../img/yellowish-horror-background.jpg');
+        background-size: cover;
+        background-attachment: fixed;
+        padding: 100px 175px;
+        text-align: center;
+        font-size: 30px;
+        color: black;
+        font-family: 'Creepster', cursive;
+        height: 100vh;
+    }
+    
+    .contenedor {
+        position: relative;
+        height: 290px;
+        width: 290px;
+        float: left;
+        margin: 50px 20px;
+    }
+    
+    .contenedor img {
+        position: absolute;
+        left: 0;
+        transition: opacity 6s ease-in-out;
+    }
+    
+    .contenedor img.top:hover {
+        opacity: 0;
+    }
+    
+    #back {
+        background-image: url('../img/dark-wall.jpg');
+        background-size: cover;
+        background-attachment: fixed;
+    }
+    
+    .row2 {
+        text-align: center;
+        float: right;
+        width: 100%;
+    }
+    
+    input {
+        padding: 2% 0% 1% 0.5%;
+        font-size: 150%;
+    }
+    
+    .padding {
+        padding: 60px 0px 30px 500px;
+    }
+    
+    a {
+        text-decoration: none;
+        font-size: 150%;
+        font-family: 'Creepster', cursive;
+        color: blanchedalmond;
+    }
+    /* FOOTER*/
+    
+    #footer {
+        background-color: #232527;
+        color: white;
+    }
+    
     #footer p {
-        font-size: 10px;
+        font-size: 20px;
+        text-align: left;
+        font-family: 'Quicksand';
+    }
+    
+    .two-column2 {
+        float: left;
+        width: 50%;
+        padding: 2%;
+        font-size: 3vw;
+    }
+    
+    .two-column2 img {
+        float: left;
+        padding-left: 80px;
+    }
+    
+    .four-column {
+        float: left;
+        width: 25%;
+        padding: 2%;
+    }
+    
+    .huhu {
+        padding-bottom: 300px;
+        float: left;
+    }
+    
+    @media screen and (max-width: 700px) {
+        .header {
+            background-image: url('../img/yellowish-horror-background.jpg');
+            background-size: cover;
+            padding: 50px 10px 0px 10px;
+            text-align: center;
+            font-size: 4vw;
+            color: black;
+            font-family: 'Creepster', cursive;
+            height: 70vh;
+        }
+        img {
+            height: 45vh;
+            width: 50vh;
+        }
+        #footer p {
+            font-size: 10px;
+        }
+        .padding {
+            padding: 10% 10% 0% 10%;
+        }
     }
