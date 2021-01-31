@@ -87,11 +87,15 @@ input {
 }
 
 @media screen and (max-width: 700px) {
-    .header h1 {
+    .header {
+        background-image: url('../img/dark_red-Abstract_HD_Wallpaper_1366x768.jpg');
+        background-size: cover;
+        padding: 50px 10px 0px 10px;
         text-align: center;
-        font-size: 5vw;
+        font-size: 4vw;
         color: wheat;
         font-family: 'Creepster', cursive;
+        height: 40vh;
     }
     .two-column img {
         width: 100%;
@@ -102,14 +106,14 @@ input {
         font-size: 10px;
     }
     a {
-        font-size: 80%;
+        font-size: 100%;
     }
     #padding {
         padding: 0px 0px 100px 100px;
     }
     input {
         padding: 20px 0% 0% 0px;
-        font-size: 40%;
+        font-size: 100%;
     }
     .two-column {
         float: left;
