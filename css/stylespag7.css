@@ -1,4 +1,4 @@
-* {
+    * {
     box-sizing: border-box;
 }
 
@@ -106,3 +106,8 @@ a {
     padding-bottom: 300px;
     float: left;
 }
+
+@media screen and (max-width: 700px) {
+    #footer p {
+        font-size: 10px;
+    }
