@@ -9,9 +9,12 @@ function pag3() {
 }
 
 
+/*
 
 function playAudio() {
     var x = document.getElementById("myaudio");
     x.play();
 
 }
+
+*/

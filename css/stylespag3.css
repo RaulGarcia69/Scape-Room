@@ -78,6 +78,12 @@ a {
     cursor: pointer;
 }
 
+.audiomorse {
+    padding-left: 575px;
+    background-color: black;
+    padding-top: 40px;
+}
+
 #footer {
     background-color: #232527;
     color: white;

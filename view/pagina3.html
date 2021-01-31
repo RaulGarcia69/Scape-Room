@@ -2,12 +2,13 @@
 <html lang="en">
 
 <head>
-    <title>Scape Room | Reto 2</title>
+    <title>Escape Room |</title>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" type="text/css" href="../css/stylespag3.css">
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Creepster&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300&display=swap" rel="stylesheet">
     <link rel="icon " href="../img/LOGO.png " type="image/x-icon ">
     <script src="../js/pag3.js"></script>
 
@@ -16,7 +17,7 @@
 <body>
     <div class="row">
         <div class="texto">
-            <h1>Has abierto la puerta, pero las luces están apagadas y es muy difícil moverte por la habitación, de fondo se escucha un ruido que parece morse...</h1>
+            <h1>Has abierto la puerta, pero las luces están apagadas y es muy difícil moverte por la habitación, de fondo se escucha un ruido bastante peculiar...</h1>
         </div>
         <div class="room">
             <div class="datos">
@@ -25,8 +26,15 @@
             <div class="comprobar">
                 <a href="./pagina4.html" onclick="return pag3()">Comprobar palabra</a>
             </div>
+
+            <!-- 
             <div class="boton">
-                <button onclick="playAudio()" type="button" value="play">???</button>
+                <button onclick="playAudio()" controls type="button" value="play">???</button>
+            </div>
+        -->
+
+            <div class="audiomorse">
+                <audio src="../audio/monkee.mp3" preload="none" controls></audio>
             </div>
         </div>
 
