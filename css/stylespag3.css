@@ -79,9 +79,12 @@ a {
 }
 
 .audiomorse {
-    padding-left: 575px;
     background-color: black;
     padding-top: 40px;
+}
+
+#centrado {
+    text-align: center;
 }
 
 #footer {
