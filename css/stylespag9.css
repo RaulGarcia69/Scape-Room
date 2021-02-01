@@ -95,23 +95,34 @@
         padding: 2%;
     }
     
+    #resp {
+        display: none;
+    }
+    
     @media screen and (max-width: 700px) {
         .header {
             height: 30vh;
         }
         #TextoVideo {
-            font-size: 3vw;
-            height: 100px;
+            font-size: 4vw;
+            height: 200px;
         }
         #TextoVideo2 {
-            font-size: 2vw;
+            font-size: 3vw;
             height: 100px;
-            padding: 50% 0% 50% 00%;
+            padding: 45% 2% 70% 2%;
+            text-align: center;
         }
         #fullScreenDiv {
             height: 30vh;
         }
         #footer p {
             font-size: 10px;
+        }
+        #footer {
+            padding-top: 17px;
+        }
+        #resp {
+            display: initial;
         }
     }
